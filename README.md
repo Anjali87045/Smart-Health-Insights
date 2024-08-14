@@ -5,14 +5,15 @@
 2. [Business Objective](#business-objective)
 3. [Stakeholders](#stakeholders)
 4. [Data Source ](#data-source)
-5. [Data Preparation](#data-preparation)
-6. [Exploratory Data Analysis](#exploratory-data-analysis)
-7. [Advanced Analysis and Modeling](#advanced-analysis-and-modeling)
-8. [Key Insights and Findings](#key-insights-and-findings)
-9. [Strategic Recommendations](#strategic-recommendations)
-10. [Implementation Roadmap](#implementation-roadmap)
-11. [Success Metrics](#success-metrics)
-12. [Technical Summary](#technical-summary)
+5. [Scripts](#Scripts)
+6. [Data Preparation](#data-preparation)
+7. [Exploratory Data Analysis](#exploratory-data-analysis)
+8. [Advanced Analysis and Modeling](#advanced-analysis-and-modeling)
+9. [Key Insights and Findings](#key-insights-and-findings)
+10. [Strategic Recommendations](#strategic-recommendations)
+11. [Implementation Roadmap](#implementation-roadmap)
+12. [Success Metrics](#success-metrics)
+13. [Technical Summary](#technical-summary)
 
 
 ## Project Overview
@@ -34,6 +35,10 @@ The analysis is based on publicly available FitBit Fitness Tracker data, which i
 - `sleepDay_merged.csv`
 - `heartrate_seconds_merged.csv`
 
+## Scripts
+- Data Cleaning and Transformation. [Click](data-cleaning-and-transformation.ipynb)
+- Exploratory Data Analysis. [Click](EDA.ipynb)
+- Statistical Analysis and Machine Learning. [Click](Statistical-Analysis-and-Machine-Learning.ipynb)
 
 ## Data Preparation
 ### Data Cleaning:
