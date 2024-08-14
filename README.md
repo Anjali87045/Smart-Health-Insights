@@ -53,14 +53,16 @@ The analysis is based on publicly available FitBit Fitness Tracker data, which i
 - **Activity Trends:** Investigated how activity levels vary by day of the week and explored the relationship between sleep duration and daily steps.
 
 ### Visualizations:
-- Distribution of daily steps
-- Correlation heatmap of key health metrics
-- Average daily steps by day of the week
-- Scatterplot of sleep duration vs. daily steps
+- Distribution of daily steps [click](daily_steps_distribution.png)
+- Correlation heatmap of key health metrics [click](correlation_heatmap.png)
+- Average daily steps by day of the week [click](weekly_activity_pattern.png)
+- Scatterplot of sleep duration vs. daily steps [click](sleep_vs_activity.png)
+- User segments based on Activity and Calorie Burn [click](user_segments.png)
+- Average daily steps over time [click](daily_steps_time_series.png)
 
 ## Advanced Analysis and Modeling
 ### Statistical Analysis:
-- **Random Forest Regressor:** Developed a model to predict calorie burn with an R-squared score of 0.86, identifying `TotalSteps` as the most significant predictor.
+- **Random Forest Regressor:** Developed a model to predict calorie burn with an R-squared score of 0.52, identifying `TotalSteps` as the most significant predictor.
   
 ### Machine Learning:
 - **K-Means Clustering:** Segmented users into three distinct groups based on activity levels and calorie burn, providing a foundation for personalized recommendations.
@@ -83,7 +85,7 @@ The analysis is based on publicly available FitBit Fitness Tracker data, which i
 
 ### Marketing Strategy:
 - **Segmented Campaigns:** Develop targeted marketing campaigns for distinct user segments (e.g., "Weekend Warriors" for less active users).
-- **Holistic Health Messaging:** Position Bellabeat products as holistic wellness tools that integrate activity, sleep, and hydration data.
+- **Holistic Health Messaging:** Position Bellabeat products as holistic wellness tools integrating activity, sleep, and hydration data.
 - **Content Marketing:** Create educational content around the predictors of calorie burn and the benefits of balanced activity.
 
 ### User Engagement:
